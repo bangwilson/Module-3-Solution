@@ -1,0 +1,86 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #F6BD60;
+  font-family: helvetica, arial, sans-serif;
+}
+h1{
+  margin: 0px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  color: #F6BD60;
+  font-weight: bold;
+}
+.navbar-brand{
+  padding-left: 0px;
+  object-fit: contain;
+}
+
+button.navbar-toggle.collapsed{
+  float: right;
+}
+a:hover{
+  text-decoration: none;
+}
+#header-nav{
+  background-color: black;
+  border: 0px;
+}
+#nav-list{
+  margin-top: 10px;
+  clear: both;
+}
+#nav-list a{
+  color: white;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0px;
+}
+#nav-list a:hover{
+  color: red;
+}
+#nav-list a span{
+  font-size: 1.8em;
+}
+.full-menu{
+  width: 100%;
+  clear: both;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+}
+div#collapseable-nav[aria-expanded="true"]{
+  width: 50%;
+  float: right;
+  }
+.col-xs-12{
+background-color: #FBFCFF;
+padding: 0px;
+margin-bottom: 20px;
+}
+.menu-title{
+  margin: 0px;
+  margin-right: 5px;
+  padding: 5px;
+  padding-bottom: 4px;
+  background-color: #F6BD60;
+  color: black;
+  float: left;
+  border-bottom: solid;
+
+}
+h2{
+  margin: 0px;
+}
+p.text-center.h1{
+  font-weight: 700;
+  color: black;
+  text-transform: uppercase;
+  font-size: 2em;
+}
+P{
+  margin: 0px;
+  padding: 5px;
+}
